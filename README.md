@@ -1,4 +1,4 @@
-Code: [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/1/badge)](https://www.bestpractices.dev/projects/1) [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/{Fedmichard}/{gym_tracker}/badge)](https://securityscorecards.dev/viewer/?uri=github.com/{Fedmichard}/{gym_tracker})
+Code: [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/1/badge)](https://www.bestpractices.dev/projects/1) [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/{Fedmichard}/{gym_tracker}/badge)](https://securityscorecards.dev/viewer/?uri=github.com/Fedmichard/gym_tracker)
 # A gym tracker app which uses a fully customizable routine creator
 
 ## An example project used to practice applying react native code into creating a fully functional app
