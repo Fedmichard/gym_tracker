@@ -1,3 +1,4 @@
+[![OpenSSF Scorecard](htt‌ps://api.securityscorecards.dev/projects/github.com/{owner}/{repo}/badge)](htt‌ps://securityscorecards.dev/viewer/?uri=github.com/{owner}/{repo})
 # A gym tracker app which uses a fully customizable routine creator
 
 ## An example project used to practice applying react native code into creating a fully functional app
