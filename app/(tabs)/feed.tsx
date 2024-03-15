@@ -4,7 +4,7 @@ import React from 'react';
 const Page = () => {
     return(
         <View>
-            <Text> Feed </Text>
+            <Text> Feed Me</Text>
         </View>
     );
 }
