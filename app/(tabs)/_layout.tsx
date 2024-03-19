@@ -25,7 +25,7 @@ const Layout = () => {
                 tabBarIcon: ({color, size}) => 
                     <Feather name="users" size={24} color={color} />,
                 }}/>
-            <Tabs.Screen name="workout" options={{
+            <Tabs.Screen name="Quests" options={{
                 tabBarLabel: 'Quests',
                 tabBarIcon: ({color, size}) => 
                     <FontAwesome5 name="dumbbell" size={22} color={color} />,

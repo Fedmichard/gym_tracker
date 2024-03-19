@@ -1,20 +1,16 @@
 import {View, Text, StyleSheet, Pressable, FlatList} from 'react-native';
 import React from 'react';
 import {Link} from 'expo-router';
-import exercises from 'C:/Users/franc/OneDrive - Florida Gulf Coast University/Documents/1_Projects/GITHUB REPOS/fitness_app/gym_tracker/assets/data/exercises.json';
+import exercises from '../../assets/data/exercises.json';
+import ExerciseListItem from '../../components/ExerciseListItem';
 
 const Page = () => {
     return(
         <View style={styles.container}>
             <FlatList 
                 data={exercises}
-                renderItem={({item}) => (
-                    <View style={styles.exerciseContainer}>
-                        <Text style={styles.exerciseName}>{item.name}</Text>
-                        <Text style={styles.exerciseSubtitle}>{item.primaryMuscles[0].toUpperCase()} | {item.equipment?.toUpperCase()}</Text>
-                    </View>
-                    )
-                }
+                contentContainerStyle={{gap: 5}}
+                renderItem={({item}) => <ExerciseListItem item={item}/>}
             />
 
         </View>
