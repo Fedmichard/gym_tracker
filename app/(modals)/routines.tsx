@@ -1,16 +1,41 @@
-import {View, Text} from 'react-native';
+import {View, Text, StyleSheet, FlatList} from 'react-native';
 import React from 'react';
 import {Link} from 'expo-router';
+import exercises from '../../assets/data/exercises.json';
+import ExerciseListItem from '../../components/ExerciseListItem';
 
 const Page = () => {
     return(
         <View>
-            <Link href="/workouts/0001"> Upper 1 </Link>
-            <Link href="/workouts/0002"> Upper 2 </Link>
-            <Link href="/workouts/0003"> Lower 1 </Link>
-            <Link href="/workouts/0004"> Lower 2 </Link>
+           <FlatList 
+                data={exercises}
+                contentContainerStyle={{gap: 5}}
+                renderItem={({item}) => <ExerciseListItem item={item}/>}
+            />
         </View>
     );
 }
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: 'gainsboro',
+        justifyContent: 'center',
+        padding: 10,
+    },
+    exerciseContainer: {
+        backgroundColor: '#fff',
+        padding: 10,
+        borderRadius: 15,
+        gap: 5,
+    },
+    exerciseName: {
+        fontSize: 20,
+        fontWeight: '500',
+    },
+    exerciseSubtitle: {
+        color: 'dimgray',
+    }
+});
 
 export default Page;

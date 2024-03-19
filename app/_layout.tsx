@@ -48,7 +48,7 @@ function RootLayoutNav() {
       <Stack.Screen name="(modals)/routines"
       options={{
         presentation: 'modal',
-        title: 'Routines',
+        title: 'Quest List',
         }} />
 
       <Stack.Screen name="workouts/[id]"
