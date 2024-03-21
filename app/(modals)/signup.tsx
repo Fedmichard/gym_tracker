@@ -1,10 +1,11 @@
 import {View, Text} from 'react-native';
 import React from 'react';
+import QuestSearch from '@/components/QuestSearch';
 
 const Page = () => {
     return(
         <View>
-            <Text> Signup </Text>
+            <QuestSearch />
         </View>
     )
 }

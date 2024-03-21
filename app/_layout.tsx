@@ -49,13 +49,43 @@ function RootLayoutNav() {
       options={{
         presentation: 'modal',
         title: 'Quest List',
-        }} />
+      }} />
+
+      <Stack.Screen name="(modals)/ArmQuests"
+      options={{
+        presentation: 'modal',
+        title: 'Quest List',
+      }} />
+
+      <Stack.Screen name="(modals)/ShoulderQuests"
+      options={{
+        presentation: 'modal',
+        title: 'Quest List',
+      }} />
+
+      <Stack.Screen name="(modals)/BackQuests"
+      options={{
+        presentation: 'modal',
+        title: 'Quest List',
+      }} />
+
+      <Stack.Screen name="(modals)/ChestQuests"
+      options={{
+        presentation: 'modal',
+        title: 'Quest List',
+      }} />
+
+      <Stack.Screen name="(modals)/LegQuests"
+      options={{
+        presentation: 'modal',
+        title: 'Quest List',
+      }} />
 
       <Stack.Screen name="workouts/[id]"
       options={{
         headerTitle: '',
         presentation: 'modal',
-        }} />
+      }} />
 
     </Stack>
   );
